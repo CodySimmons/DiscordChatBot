@@ -2,7 +2,7 @@
   "name": "DiscordChatBot",
   "version": "1.0.0",
   "description": "A simple chatbot for personal Discord channel",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/CodySimmons/DiscordChatBot#readme",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0"
   }
 }
